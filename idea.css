@@ -6,6 +6,7 @@
     margin-top: 70px;
     margin-left: 12px;
     margin-right: 12px;
+      background-size: 127px 97px;
 
 
    
@@ -90,6 +91,7 @@ header{
     right: 0;
     background-color: white;
     color: #01a2a6;
+    z-index: 100;
 
 }
 
@@ -111,7 +113,7 @@ header{
     justify-content: center;
     align-items: center;
     height: 10vh;
-    border: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
 }
 
 .imegcont{
@@ -216,6 +218,7 @@ b{
  align-items: center;
  margin-top: 17px;
 
+
 }
 .contqrsign{
     width: 100%;
@@ -241,12 +244,12 @@ b{
     justify-content: center;
     
     width: 50%;
-    height: 97px;
+    align-items: center;
 }
 .qrimg{
     padding: 8px;
-    width: 80px;
-    height: 80px;
+    width: 65px;
+    height: 65px;
     
 
 }
@@ -277,4 +280,5 @@ b{
     display: flex;
     flex-wrap: wrap;
     justify-content:center ;
+    padding: 0 15px;
 }
